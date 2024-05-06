@@ -9,13 +9,13 @@ public class lis {
                 if(arr[i]>arr[j] && lis[i]<lis[j]+1)  
                     lis[i]=lis[j]+1;  
         } 
-        
+
         int m=Integer.MIN_VALUE;
         for(int i=0; i<n; i++)
             if(m<lis[i])
                 m=lis[i];
         return m;
-    }  
+    }
     public static void main(String[] args){ 
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
