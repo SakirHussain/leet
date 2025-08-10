@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Map.Entry;
 
 class Node {
     int data, hd;
